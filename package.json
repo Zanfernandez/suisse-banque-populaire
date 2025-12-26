@@ -1,0 +1,13 @@
+{
+  "name": "suisse-banque-populaire",
+  "version": "1.0.0",
+  "description": "Site vitrine de la Suisse Banque Populaire",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "start": "echo 'Static site - no server needed'"
+  },
+  "keywords": ["bank", "suisse", "populaire"],
+  "author": "Manus AI",
+  "license": "MIT"
+}
