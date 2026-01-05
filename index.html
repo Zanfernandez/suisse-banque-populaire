@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suisse Banque Populaire - Banque en Ligne Suisse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Suisse Banque Populaire</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#connexion" class="btn-connexion">Connexion</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Bienvenue à la Suisse Banque Populaire</h2>
+                <p>La banque en ligne suisse moderne et sécurisée pour particuliers et entreprises</p>
+                <button class="btn btn-primary" onclick="openLoginModal()">Ouvrir un Compte</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💳</div>
+                    <h3>Comptes Multi-Devises</h3>
+                    <p>Gérez vos comptes en CHF, EUR, USD et d'autres devises en un seul endroit.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💰</div>
+                    <h3>Cartes de Crédit/Débit</h3>
+                    <p>Cartes Visa/Mastercard physiques et virtuelles avec taux interbancaires.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔒</div>
+                    <h3>Sécurité Avancée</h3>
+                    <p>Authentification biométrique, 2FA et chiffrement AES-256 pour vos données.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Paiements Mobiles</h3>
+                    <p>Apple Pay, Google Pay et paiements par QR-code intégrés.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Virements Instantanés</h3>
+                    <p>SEPA instantanés et transferts SWIFT rapides pour vos transactions internationales.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Outils d'Investissement</h3>
+                    <p>Plateforme d'investissement avec actions, ETF et solutions de prévoyance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fonctionnalités Section -->
+    <section id="fonctionnalites" class="fonctionnalites">
+        <div class="container">
+            <h2>Fonctionnalités Clés</h2>
+            <div class="features-list">
+                <div class="feature-item">
+                    <h4>✓ Ouverture de Compte 100% Numérique</h4>
+                    <p>Créez votre compte en moins de 10 minutes avec vérification d'identité par vidéo.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>✓ Application Mobile Intuitive</h4>
+                    <p>Accédez à tous vos services bancaires depuis votre smartphone, 24/7.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>✓ Gestion des Dépenses (PFM)</h4>
+                    <p>Catégorisation automatique et outils de budgétisation pour mieux gérer vos finances.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>✓ Support Client Multilingue</h4>
+                    <p>Support en français, allemand et anglais disponible 24/7 via chat et téléphone.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>✓ Conformité FINMA</h4>
+                    <p>Respect strict des exigences réglementaires suisses et de la protection des données.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>✓ Services aux Entreprises</h4>
+                    <p>Gestion multi-utilisateurs, intégration comptable et solutions de financement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compte Fictif Section -->
+    <section class="compte-fictif">
+        <div class="container">
+            <h2>Exemple de Compte Fictif</h2>
+            <div class="compte-info">
+                <div class="info-box">
+                    <h3>Client: André Fernandez Leblanc</h3>
+                    <p><strong>E-mail:</strong> andrefernandezleblanc@gmail.com</p>
+                    <p><strong>IBAN:</strong> CH98 0076 2011 6235 0580 0</p>
+                    <p><strong>Solde EUR:</strong> <span class="solde">1 133 045,00 €</span></p>
+                    <p><strong>Statut:</strong> Compte Actif</p>
+                </div>
+                <div class="info-box">
+                    <h3>Historique des Transactions</h3>
+                    <table class="transactions-table">
+                        <tr>
+                            <th>Date</th>
+                            <th>Description</th>
+                            <th>Montant</th>
+                        </tr>
+                        <tr>
+                            <td>01/12/2025</td>
+                            <td>Dépôt Initial</td>
+                            <td class="credit">+1 137 000,00 €</td>
+                        </tr>
+                        <tr>
+                            <td>02/12/2025</td>
+                            <td>Achat en ligne</td>
+                            <td class="debit">-450,00 €</td>
+                        </tr>
+                        <tr>
+                            <td>03/12/2025</td>
+                            <td>Salaire</td>
+                            <td class="credit">+8 500,00 €</td>
+                        </tr>
+                        <tr>
+                            <td>05/12/2025</td>
+                            <td>Virement Externe</td>
+                            <td class="debit">-12 000,00 €</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Nous Contacter</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4>📞 Téléphone</h4>
+                    <p>+41 44 123 4567 (Suisse)</p>
+                </div>
+                <div class="contact-item">
+                    <h4>📧 E-mail</h4>
+                    <p>support@suissebanquepopulaire.ch</p>
+                </div>
+                <div class="contact-item">
+                    <h4>💬 Chat en Ligne</h4>
+                    <p>Disponible 24/7 sur notre application mobile</p>
+                </div>
+                <div class="contact-item">
+                    <h4>📍 Adresse</h4>
+                    <p>Zurich, Suisse</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeLoginModal()">&times;</span>
+            <h2>Connexion - Suisse Banque Populaire</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="andrefernandezleblanc@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="password">Mot de Passe:</label>
+                    <input type="password" id="password" name="password" required placeholder="Leblanc12">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Numéro de Téléphone (2FA):</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="+34 683 263454">
+                </div>
+                <button type="submit" class="btn btn-primary">Se Connecter</button>
+                <p class="note"><strong>Note:</strong> Ceci est un formulaire fictif à titre d'illustration.</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Suisse Banque Populaire. Tous droits réservés. | <a href="#">Politique de Confidentialité</a> | <a href="#">Conditions d'Utilisation</a></p>
+            <p><strong>Avertissement:</strong> Ce site est une création fictive à titre d'illustration du projet de conception.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
